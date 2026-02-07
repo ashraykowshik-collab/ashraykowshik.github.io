@@ -40,17 +40,21 @@ h2 {
 
 /* PROJECT CARDS */
 .project-card {
-    background-color: #1e293b;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    transition: 0.3s;
+    background: rgba(30, 41, 59, 0.7);
+    padding: 22px;
+    margin-top: 25px;
+    border-radius: 14px;
+    transition: 0.35s;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    backdrop-filter: blur(6px);
 }
 
 .project-card:hover {
-    transform: scale(1.03);
-    background-color: #334155;
+    transform: translateY(-8px);
+    border: 1px solid #38bdf8;
+    box-shadow: 0 10px 30px rgba(56,189,248,0.25);
 }
+
 
 /* SKILLS */
 ul li {
@@ -63,3 +67,4 @@ footer {
     padding: 20px;
     background-color: #020617;
 }
+
