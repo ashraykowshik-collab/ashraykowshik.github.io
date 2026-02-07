@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ashray Kowshik | Portfolio</title>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <!-- NAVBAR -->
 <header>
-    <h1 id="name">Ashray Kowshik</h1>
+    <h1 class="logo">Ashray</h1>
     <nav>
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
@@ -19,33 +25,34 @@
         <a href="#contact">Contact</a>
     </nav>
 </header>
+
+<!-- HERO -->
 <section id="hero">
-    <div class="hero-text">
+    <div class="hero-content">
         <h2>Hello, I'm</h2>
         <h1 class="big-name">Ashray Kowshik</h1>
-        <h3>Java Developer | Computer Science Student</h3>
+        <h3>Aspiring Software Developer (Java)</h3>
 
         <p>
-            I enjoy building practical software and improving my programming skills.
-            Currently focusing on Java development and problem solving.
+            I build practical Java applications and continuously improve my problem-solving skills.
+            Currently learning real-world program design and file handling.
         </p>
 
-        <a href="#projects" class="cta-btn">View My Work</a>
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="Ashray_Kowshik_Resume.pdf" target="_blank" class="secondary-btn">Download Resume</a>
+        </div>
     </div>
 </section>
 
-
-<!-- ABOUT SECTION -->
+<!-- ABOUT -->
 <section id="about">
     <h2>About Me</h2>
     <p>
-        I am a Computer Science student focused on Java development and problem solving.
-        I enjoy building applications that simulate real-world systems and help me understand how software works beyond theory.
-
-        I am currently improving my knowledge in Object-Oriented Programming, file handling, and program design. 
-        My goal is to become a software developer and contribute to real production-level applications.
-
-        I am actively looking for internship opportunities where I can learn from experienced developers and gain practical industry experience.
+        I am a Computer Science student focused on Java development and programming logic.
+        I enjoy understanding how systems work internally and building applications
+        that simulate real-world problems. I am currently looking for internship
+        opportunities where I can gain practical industry experience.
     </p>
 </section>
 
@@ -53,50 +60,61 @@
 <section id="projects">
     <h2>Projects</h2>
 
-    <div class="project-card">
-        <h3>Bank Account Management System</h3>
-        <p>
-            A Java-based console application that allows users to create accounts,
-            deposit and withdraw money, and check account balance securely.
-        </p>
-    </div>
+    <div class="project-grid">
 
-    <div class="project-card">
-        <h3>Student Record System</h3>
-        <p>
-            Java program to store and manage student data using OOP concepts such as
-            classes, objects, and file handling.
-        </p>
-    </div>
+        <div class="project-card">
+            <h3>Bank Account Management System</h3>
+            <p class="project-type">Java Console Application</p>
 
+            <p>
+                A banking system allowing users to create an account,
+                deposit, withdraw and check balance with validation.
+            </p>
+
+            <div class="tech">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>Scanner</span>
+            </div>
+
+            <a href="https://github.com/ashraykowshik-collab" target="_blank" class="project-btn">View Code</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Record System</h3>
+            <p class="project-type">Management Application</p>
+
+            <p>
+                A program to store and manage student information using classes,
+                objects and structured program logic.
+            </p>
+
+            <div class="tech">
+                <span>Java</span>
+                <span>Classes</span>
+                <span>Collections</span>
+            </div>
+
+            <a href="#" class="project-btn">Code Coming Soon</a>
+        </div>
+
+    </div>
 </section>
-<section id="preview">
-    <h2>Project Preview</h2>
-
-    <div class="preview-box">
-        <p>Sample Output from Bank Account Management System:</p>
-        <pre>
-Welcome to the Bank System
-1. Create Account
-2. Deposit
-3. Withdraw
-4. Check Balance
-Enter your choice:
-        </pre>
-    </div>
-</section>
-
 
 <!-- SKILLS -->
 <section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <li>Java (OOP, Collections, File Handling)</li>
-        <li>HTML & CSS</li>
-        <li>Basic JavaScript</li>
-        <li>Problem Solving</li>
-        <li>Git & GitHub (Learning)</li>
-    </ul>
+
+    <div class="skills">
+        <span>Java</span>
+        <span>OOP</span>
+        <span>Collections</span>
+        <span>File Handling</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>GitHub</span>
+        <span>Problem Solving</span>
+    </div>
 </section>
 
 <!-- CONTACT -->
@@ -104,28 +122,25 @@ Enter your choice:
     <h2>Contact</h2>
 
     <p>Email:
-        <a href="mailto:ashraykowshik@gmail.com">ashraykowshik@gmail.com</a>
+        <a href="mailto:yourmail@gmail.com">yourmail@gmail.com</a>
     </p>
 
     <p>GitHub:
-        <a href="https://github.com/ashraykowshik" target="_blank">
-            https://github.com/ashraykowshik
+        <a href="https://github.com/ashraykowshik-collab" target="_blank">
+            github.com/ashraykowshik-collab
         </a>
     </p>
 
     <p>LinkedIn:
-        <a href="https://linkedin.com/in/ashray-kowshik" target="_blank">
-           https://www.linkedin.com/in/ashray-kowshik-b1594a32a/
+        <a href="https://www.linkedin.com/in/ashray-kowshik-b1594a32a/" target="_blank">
+            linkedin.com/in/ashray-kowshik
         </a>
     </p>
 </section>
 
-
 <footer>
-    <p>© 2026 Ashray Kowshik | Portfolio Website</p>
+    <p>© 2026 Ashray Kowshik</p>
 </footer>
-
-<script src="script.js"></script>
 
 </body>
 </html>
