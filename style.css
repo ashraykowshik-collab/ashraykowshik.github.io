@@ -68,3 +68,46 @@ footer {
     background-color: #020617;
 }
 
+
+
+
+/* PROJECT PREVIEW SECTION */
+.preview-box {
+    background-color: #020617;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    border: 1px solid #38bdf8;
+}
+
+pre {
+    color: #38bdf8;
+    overflow-x: auto;
+}
+
+/* RESUME BUTTON */
+.resume-btn {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: 2px solid #38bdf8;
+    color: #38bdf8;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.resume-btn:hover {
+    background-color: #38bdf8;
+    color: black;
+}
+
+/* CURRENTLY LEARNING */
+#learning ul li {
+    margin: 10px 0;
+}
+
+
+
